@@ -39,7 +39,7 @@ What it does
   * Output: $2.50
 
 
-##Technologies Used
+## Technologies Used
 HTML, CSS, Bootstrap, JavaScript, jQuery
 
 ### License

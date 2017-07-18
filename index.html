@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Ticket Prices</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Ticket Prices</h1>
+
+      <form id="get-movie-prices">
+        <div class="form-group">
+          <label for="movie-titles">Pick a movie</label>
+          <select class="form-control" id="movie-titles">
+            <option value="bd">Baby Driver</option>
+            <option value="bs">The Big Sick</option>
+            <option value="ww">Wonder Woman</option>
+            <option value="cas">Casablanca</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="showtimes">Pick a time</label>
+          <select class="form-control" id="showtimes">
+            <option value="1">1:00</option>
+            <option value="2">2:00</option>
+            <option value="3">3:00</option>
+            <option value="4">4:00</option>
+            <option value="5">5:00</option>
+            <option value="6">6:00</option>
+            <option value="7">7:00</option>
+            <option value="8">8:00</option>
+            <option value="9">9:00</option>
+            <option value="10">10:00</option>
+            <option value="11">11:00</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="attendee-age">How old are you?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age-group" value="child">Under 13
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age-group" value="adult">13-64
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age-group" value="senior">65+
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success">Get my ticket price</button>
+      </form>
+
+      <div class="prices">
+        <p>
+          Your ticket price is <span class="show-price"></span>.
+        </p>
+        <ul>
+
+        </ul>
+      </div>
+
+
+
+
+
+    </div>
+  </body>
+</html>
