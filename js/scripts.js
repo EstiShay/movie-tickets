@@ -11,7 +11,7 @@ Ticket.prototype.movieRequest = function() {
 }
 
 Ticket.prototype.calcPrice = function() {
-  if (this.movie === "Casablanca") {
+  if (this.movie === "casablanca") {
     this.price = this.price - 12;
   } else if (this.age === "adult" && this.time > 4) { //,maybe hav more logic?
     this.price = this.price;
