@@ -34,16 +34,11 @@ $(document).ready(function() {
     var showInput = $("#movie-titles").val();
     var timeInput = parseInt($("#showtimes").val());
     var ageInput = $("input:radio[name=ageGroup]:checked").val();
-    //  debugger;
 
     var newTicket = new Ticket(showInput, timeInput, ageInput);
 
     newTicket.calcPrice();
-    //var actualPrice = calcPrice(showInput, timeInput, ageInput);
-    // $("ul").append("<li>" + showInput + "</li>");
-    // $("ul").append("<li>" + timeInput + "</li>");
-    // $("ul").append("<li>" + ageInput + "</li>");
-    // $("ul").append("<li>" + newRequest.calcPrice() + "</li>")
+
     $(".show-price").text("$" + newTicket.price);
     $(".prices").show();
 
