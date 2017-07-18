@@ -1,3 +1,26 @@
+body {
+  background-image: url(../theater.jpg);
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color: white;
+  font-family: "PHOSPHATE";
+  text-align: center;
+  color: #d8084d;
+}
+
+option {
+  width: 300px;
+}
+
+.age-box {
+  background-color: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 5px;
+}
+
 .prices {
   display: none;
 }
@@ -9,4 +32,18 @@
 
 .show-price {
   font-weight: bold;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+footer,
+.push {
+  height: 50px;
 }
